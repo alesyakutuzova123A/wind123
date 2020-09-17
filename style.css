@@ -292,7 +292,7 @@ form p {
 .glazing__wrap .tab-content {
   position: absolute;
   left: 0;
-  width: 100%;
+  width: 100%; 
   display: none;
 }
 
@@ -1156,7 +1156,7 @@ footer {
   display: none;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (min-width:768px) and (max-width: 1170px) {
   body.lock {
       overflow: hidden;
   }
@@ -1167,11 +1167,13 @@ footer {
 
   .header_burger {
       display: block;
-      position: fixed;
+      position: absolute;
       right: 20px;
       width: 30px;
       height: 20px;
       z-index: 5;
+     
+      
   }
 
   .header_burger:before,
@@ -1274,16 +1276,87 @@ margin-right: 0;
 .main__wrap{
   margin-left: 50px;
 }
-.icon1{
-  left: 7%;
+ .icon1{
+  left: 11%;
+  top: 48%;
 }
 .icon2{
-  left: 18.5%;
+  left: 28.5%;
+  top: 47%;
 }
 .icon3{
-  left: 31.5%;
+  left: 48.5%;
+  top: 49%;
 }
 .icon4{
-  left: 43.2%;
+  left: 66.2%;
+  top: 50%;
+} 
+.tab__left{
+  width: 50%;
+}
+.tab__right{
+  width: 50%;
+}
+.header{
+  height: 100%;
+}
+.container {
+   width: 768px;
+  } 
+  .logo{
+    width: 100px;
+  }
+  .navbar{
+    padding: 0;
+  }
+  .main__wrap h3 {
+    font-size: 1.5rem;
+}
+.main__wrap h1 {
+  font-size: 3.5rem;
+}
+.glazing h2{
+  font-size: 1.5rem;
+}
+.glazing {
+  padding-top: 40px;
+}
+label img{
+  width: 50px;
+}
+.tab label p {
+  color: #525252;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.tab label p {
+  font-size: 1.1rem;
+}
+.tab label {
+  margin-right: 40px;
+}
+.tab-wrap li p {
+  font-size: 1.1rem;
+}
+.tab-sub h4 {
+  font-size: 1.1rem;
+}
+.tab-sub p {
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+.tab-sub button{
+  font-size: 1.1rem;
+  padding: 10px 15px;
+}
+  .tab-text {
+    margin-right: 0px;
+}
+.label__img {
+  width: 350px;
+}
+.tab-wrap{
+  margin-bottom: -100px;
 }
 }
