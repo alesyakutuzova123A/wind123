@@ -2270,16 +2270,8 @@ footer {
     width: 50;
     height: 30%;
     padding: 30px 30px 80px 30px;
-  }
-
-  .header_menu.active {
-    top: 100px;
-  }
-
-  .header_menu {
     display: block;
   }
-
   .header_body {
     padding: 0 15px;
   }
@@ -2416,12 +2408,8 @@ footer {
 
   .tab-wrap li p {
     font-size: 1.1rem;
-  }
-
-  .tab-wrap li {
     margin-left: 10px;
   }
-
   .tab-wrap ul {
     margin-top: 20px;
   }
@@ -2671,10 +2659,6 @@ footer {
     margin-bottom: 10px;
   }
 
-  .main__container {
-    height: 100vh;
-  }
-
   .payment ul {
     display: block;
     margin-top: 0px;
@@ -2794,7 +2778,6 @@ footer {
   .header__text {
     font-size: 1.2rem;
   }
-
   .gallery_content a {
     font-size: 1.3rem;
   }
