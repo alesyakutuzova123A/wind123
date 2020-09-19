@@ -2317,7 +2317,9 @@ footer {
   .main__wrap h3 {
     margin-top: 200px;
   }
-
+  .main__wrap ul h4 {
+    margin-right: 10px;
+    }
   .circle {
     border: 55px solid #0d8fe3;
     margin-right: 10px;
