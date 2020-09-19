@@ -1766,7 +1766,7 @@ footer {
     flex-wrap: wrap;
     }
     label img {
-    width: 60px;
+    width: 55px;
     }
     .tab label p {
     font-size: 1rem;
@@ -1774,8 +1774,8 @@ footer {
     }
   .glazing__wrap .tabs {
     margin-top: 20px;
+    margin-left: 5px;
   }
-
   .tab label {
     margin-right: 0px;
   }
@@ -1995,7 +1995,7 @@ footer {
 
   .guarantee h3 {
 
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .payment ul img {
