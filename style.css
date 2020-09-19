@@ -2099,7 +2099,7 @@ footer {
     left: 64%;
     }
   .main__container {
-    height: 100vh;
+    height: 400px;
   }
   .payment ul {
     display: block;
