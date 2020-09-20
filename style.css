@@ -1682,11 +1682,10 @@ footer {
     transform: rotate(-45deg);
     bottom: 9px;
   }
-
   .header_menu {
-    position: fixed;
     top: -100%;
-    right: 0;
+    position: absolute;
+    right: 20px;
     overflow: auto;
     background-color: #fff;
     transition: all 0.5s ease 0s;
@@ -1694,7 +1693,7 @@ footer {
     z-index: 5;
     width: 50;
     height: 30%;
-    padding: 30px 30px 80px 20px;
+    padding: 30px 30px 100px 20px;
     }
       .top h3 {
       font-size: 1.6rem;
@@ -1778,11 +1777,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     }
-    label img {
-    width: 55px;
-    }
     .tab label p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-right: 7px;
     }
   .glazing__wrap .tabs {
@@ -1791,6 +1787,9 @@ footer {
   }
   .tab label {
     margin-right: 0px;
+  }
+  label img{
+    width: 55px;
   }
 
   .glazing__wrap .tab-title p {
@@ -1932,7 +1931,7 @@ footer {
     margin-top: 0px;
   }
   .option__icons {
-    grid-template-rows: 150px 1fr;
+    grid-template-rows: 160px 1fr;
     margin-left: 10px;
     margin-top: 0px;
   }
@@ -1978,7 +1977,7 @@ footer {
   }
 
   .order__container {
-    height: 950px;
+    height: 1020px;
   }
 
   .work {
@@ -2060,6 +2059,7 @@ footer {
   .stock__wrap h2 {
     padding: 0px 0;
     margin-top: 200px;
+    font-size: 4rem;
   }
 
   .stock h5 {
@@ -2091,23 +2091,27 @@ footer {
   .map__card {
     width: 100%;
   }
-
+  .map h5 {
+    font-size: 1.2rem;
+    }
   .circle {
     margin-top: 120px;
   }
-
+  div.container:nth-child(4) {
+    margin-top: 30px;
+    }
   .map__wrap {
     padding: 30px 0;
   }
-
+    div.option__icons-item:nth-child(5) > img:nth-child(1) {
+    width: 50px;
+    } 
+    .option__icons-item {
+    margin-bottom: 10px;
+    }
   .map__title h2 {
     font-size: 1.4rem;
   }
-
-  .map h5 {
-    font-size: 1.3rem;
-  }
-
   .map li {
     margin-bottom: 10px;
     margin-right: 10px;
@@ -2186,25 +2190,28 @@ footer {
   footer {
     padding: 30px 0;
   }
-
-  footer ul li p {
-    font-size: 1.3rem;
-  }
-
-  footer ul li h5 {
-    font-size: 1.3rem;
-  }
-
   footer ul li a {
     font-size: 1.3rem;
   }
+  footer ul li p {
+    font-size: 1.1rem;
+    }
+    div.container:nth-child(10) > footer:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > img:nth-child(1) {
 
+    width: 50px;
+    }
+    footer ul {
+    align-items: center;
+    }
+
+    .question ul li p {
+    margin-left: 10px;
+    }
+    footer ul li h5 {
+      font-size: 1.1rem;
+      }
   footer ul {
-    margin: 0px 10px;
-  }
-
-  div.container:nth-child(10)>footer:nth-child(1)>ul:nth-child(1)>li:nth-child(2)>img:nth-child(1) {
-    width: 60px;
+    margin: 0px 2px;
   }
 
   #ymaps1600448773089568296 {
@@ -2215,7 +2222,7 @@ footer {
 
   .map>ul:nth-child(2) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 10px;
     margin-left: 5px;
   }
