@@ -1584,6 +1584,12 @@ footer {
   .main__forma > form:nth-child(1) {
     display: none;
     }
+    div.option:nth-child(1) > section:nth-child(3) > div:nth-child(1) > form:nth-child(2) {
+      display: none;
+      }
+      .stock > form:nth-child(2) {
+      display: none;
+      }
 }
 
 @media screen and (max-width: 479px) {
@@ -2227,6 +2233,12 @@ footer {
     .main__forma > form:nth-child(1) {
       display: none;
       }
+      div.option:nth-child(1) > section:nth-child(3) > div:nth-child(1) > form:nth-child(2) {
+        display: none;
+        }
+        .stock > form:nth-child(2) {
+        display: none;
+        }
 }
 
 @media screen and (min-width:480px) and (max-width: 767px) {
@@ -2829,4 +2841,10 @@ footer {
   .main__forma > form:nth-child(1) {
     display: none;
     }
+div.option:nth-child(1) > section:nth-child(3) > div:nth-child(1) > form:nth-child(2) {
+display: none;
 }
+.stock > form:nth-child(2) {
+display: none;
+}
+  }
