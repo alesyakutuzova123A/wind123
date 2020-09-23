@@ -1685,7 +1685,6 @@ footer {
   .header_menu {
     top: -100%;
     position: absolute;
-    right: 20px;
     overflow: auto;
     background-color: #fff;
     transition: all 0.5s ease 0s;
@@ -1693,7 +1692,7 @@ footer {
     z-index: 5;
     width: 50;
     height: 30%;
-    padding: 30px 30px 100px 20px;
+    padding: 30px 30px 30px 20px;
     }
       .top h3 {
       font-size: 1.6rem;
@@ -1705,7 +1704,9 @@ footer {
   .header_menu {
     display: block;
   }
-
+  .header_menu {
+    right: 0px;
+    }
   .header_body {
     padding: 0 15px;
   }
@@ -1996,13 +1997,21 @@ footer {
     display: block;
     margin-top: 20px;
   }
-
+  .guarantee h3 {
+    font-size: 1rem;
+    }
+    .guarantee ul img {
+    width: 30px;
+    }
+    .guarantee > ul:nth-child(3) {
+    margin-left: 5px;
+    }
+    .guarantee ul {
+    align-items: baseline;
+    }
   .guarantee {
     padding: 30px 0;
   }
-  .guarantee ul img {
-    width: 40px;
-    }
     .guarantee ul {
     grid-template-rows: 100px;
     }
@@ -2028,12 +2037,6 @@ footer {
   .guarantee>ul:nth-child(3) {
     margin-top: -50px;
   }
-
-  .guarantee h3 {
-
-    font-size: 1.2rem;
-  }
-
   .payment ul img {
     margin-right: 10px;
   }
@@ -2130,22 +2133,26 @@ footer {
     margin-top: 90px;
     margin-left: 10%;
   }
-    .icon1 {
-    top: 35%;
-    left: 20%;
-    }
-    .icon2 {
-    top: 34%;
-    left: 62%;
-    }
     .icon3 {
     top: 56%;
-    left: 21%;
     }
     .icon4 {
     top: 56%;
-    left: 64%;
     }
+    .icon1 {
+      top: 36.5%;
+      left: 22%;
+      }
+      .icon2 {
+      top: 36%;
+      left: 64.5%;
+      }
+      .icon3 {
+      left: 23%;
+      }
+      .icon4 {
+      left: 67%;
+      }
   .payment ul {
     display: block;
     margin-top: 0px;
